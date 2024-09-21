@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+#Dog{
+    width: 100%;
+    position: relative;
+}
+#Dog h2{
+    background-color: rgb(100, 100, 200);
+    width: 100%;
+    color: violet;
+}
+img{
+    overflow-clip-margin: content-box;
+    overflow: auto;
+}
+#Dog .image{
+    position: absolute;
+    top: 65px;
+    right: 0;
+}
+#Dog table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 560px;
+    height: 30px;
+    text-align: center; 
+}
+table{
+    text-indent: initial;
+    border-spacing: 2px;
+}
+tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+td{
+    display: table-cell;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+}
+tr{
+    display: table-row;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+.Courses .number{
+    color: blue;
+    font-weight: 700;
+}
+#Dog .Submit .Submit-form{
+    margin: 10px 0;
+}
+.Submit .btn{
+    background-color: violet;
+    border: 2px solid black;
+}
