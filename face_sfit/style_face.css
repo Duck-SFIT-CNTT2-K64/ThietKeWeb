@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F2F4F7;
+}
+.language{
+    display: none;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 15px;
+}
+.container{
+    display: flex;
+    border-radius: 8px;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10;
+}
+.container .logo h1{
+    color: #0866FF;
+    font-size: 70px;
+}
+.container .facebook_icon{
+    display: none;
+}
+.container .facebook_icon i{
+    font-size: 60px;
+    color: #0866FF;
+}
+.container .logo p{
+    font-size: 25px;
+    color: #333333;
+}
+.form{
+    background-color: #fff;
+    width: 350px;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+input[type="password"]{
+    margin: 10px 0;
+}
+input[type="email"], input[type="password"] {
+    padding: 15px 20px;
+    border: 1px solid #dddfe2;
+    border-radius: 4px;
+}
+input::placeholder{
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.5);
+}
+button{
+    background-color: #1877F2;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(24, 119, 242, 0.8);
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.links a{
+    text-decoration: none;
+}
+.links .forgot{
+    padding: 10px 0;
+    font-size: small;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.links .forgot a{
+    color: #1877F2;
+}
+
+.links .forgot a:hover{
+    text-decoration: underline;
+}
+.links .create{
+    margin-top: 30px;
+
+}
+.links .create a{
+    padding: 15px;
+    background-color: #42B72A;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 8px;
+}
+.links .create a:hover{
+    background-color: rgba(66, 183, 42, 0.7);
+}
+.meta{
+    display: none;
+}

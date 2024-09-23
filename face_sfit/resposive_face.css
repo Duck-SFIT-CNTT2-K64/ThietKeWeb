@@ -1,0 +1,83 @@
+@media (min-width: 1200px){}
+@media (min-width: 740px) and (max-width: 1023px){}
+@media(max-width: 739px){
+    .language{
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    .container .facebook_icon{
+        display: flex;
+        justify-content: center;
+    }
+    .container .slogan{
+        display: none;
+    }
+    .form{
+        background-color: #F2F4F7;
+        box-shadow: none;
+        padding: 0;
+        height: 60%;
+    }
+    input[type="email"], input[type="password"] {
+        padding: 15px 10px;
+        border: 1px solid #dddfe2;
+        border-radius: 10px;
+    }
+    button{
+        border-radius: 100px;
+        padding: 12px 10px;
+        font-weight: 300;
+        font-size: 15px;
+    }
+    .links{
+        height: 80%;
+    }
+    .links .forgot{
+        margin-top: 10px;
+        font-size: small;
+        border-bottom: none;
+        font-size: 15px;
+    }
+    .links .forgot a{
+        color: #000;
+    }
+    .links .forgot a:hover{
+        text-decoration: none;
+    }
+    .links .create{
+        margin-top: 100px;
+        width: 100%;
+        padding: 10px 0;
+        background-color: #F2F4F7;
+        border-radius: 100px;
+        border: 1px solid #1877F2;
+    }
+    .links .create a{
+        padding: 0;
+        background-color: #F2F4F7;
+        color:  #1877F2;
+        font-weight: normal;
+    }
+    .links .create a:hover{
+        background-color: rgba(66, 183, 42, 0.7);
+    }
+    .meta{
+        display: block;
+    }
+    .meta i{
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        color: rgba(0, 0, 0, 0.7);
+    }
+    .meta ul{
+        list-style-type: none;
+    }
+    .meta ul li{
+        display: inline;
+        text-align: center;
+        font-size: 10px;
+        color: rgba(0, 0, 0, 0.5);
+    }
+}
